@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        //sans: ["Fraunces", "serif"],
+        heading: ["Fraunces", "serif"],
         sans: ["Roboto Slab", "serif"],
       },
     },
