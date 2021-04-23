@@ -4,7 +4,7 @@ import "../src/css/tailwind.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="">
+    <div className="bg-[#fefcf7]">
       <Nav />
       <Component {...pageProps} />
       <Footer />
