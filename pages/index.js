@@ -8,62 +8,74 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=" flex flex-col items-center justify-center flex-1 px-20 text-center">
-        <h1 className="font-heading text-6xl font-bold">
-          Coffee Collective
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
-        {/* 
-        <p className="mt-3 text-2xl">
-          Get started by editing{" "}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.js
-          </code>
-        </p>
-
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div> */}
+      <main class=" bg-white relative overflow-hidden h-screen">
+        {/* <header class="h-24 sm:h-32 flex items-center z-30 w-full">
+          <div class="container mx-auto px-6 flex items-center justify-between">
+            <div class="uppercase text-gray-800 font-black text-3xl">
+              Watch.ME
+            </div>
+            <div class="flex items-center">
+              <nav class="font-sen text-gray-800 uppercase text-lg lg:flex items-center hidden">
+                <a href="#" class="py-2 px-6 flex">
+                  Home
+                </a>
+                <a href="#" class="py-2 px-6 flex">
+                  Watch
+                </a>
+                <a href="#" class="py-2 px-6 flex">
+                  Product
+                </a>
+                <a href="#" class="py-2 px-6 flex">
+                  Contact
+                </a>
+                <a href="#" class="py-2 px-6 flex">
+                  Carrer
+                </a>
+              </nav>
+              <button class="lg:hidden flex flex-col ml-4">
+                <span class="w-6 h-1 bg-gray-800  mb-1"></span>
+                <span class="w-6 h-1 bg-gray-800  mb-1"></span>
+                <span class="w-6 h-1 bg-gray-800  mb-1"></span>
+              </button>
+            </div>
+          </div>
+        </header> */}
+        <div class="bg-white flex relative z-20 items-center overflow-hidden">
+          <div class="container mx-auto px-6 flex relative py-16">
+            <div class="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
+              <span class="w-20 h-2 bg-gray-800  mb-12"></span>
+              <h1 class=" uppercase text-6xl sm:text-8xl font-black flex flex-col leading-none text-gray-800">
+                Be on
+                <span class="text-5xl sm:text-7xl">Time</span>
+              </h1>
+              <p class="text-sm sm:text-base text-gray-700">
+                Dimension of reality that makes change possible and
+                understandable. An indefinite and homogeneous environment in
+                which natural events and human existence take place.
+              </p>
+              <div class="flex mt-8">
+                <a
+                  href="#"
+                  class="uppercase py-2 px-4 rounded-lg bg-pink-500 border-2 border-transparent text-white text-md mr-4 hover:bg-pink-400"
+                >
+                  Get started
+                </a>
+                {/* <a
+                  href="#"
+                  class="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-md"
+                >
+                  Read more
+                </a> */}
+              </div>
+            </div>
+            <div class="hidden sm:block sm:w-1/3 lg:w-3/5 relative">
+              <img
+                src="/images/object/10.png"
+                class="max-w-xs md:max-w-sm m-auto"
+              />
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   );
