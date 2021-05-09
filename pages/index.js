@@ -48,25 +48,26 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="border grid grid-cols-3 ">
+          <div className=" flex  justify-evenly align-center ">
             <div>
               <img
                 alt="gallery"
-                className=" w-auto h-96 object-cover object-center"
+                className="rounded-lg w-auto h-96 object-cover object-center"
                 src="/parasol-coffee-bags-1.jpg"
               />
+              <p>ETHIOPIA</p>
             </div>
             <div>
               <img
                 alt="gallery"
-                className=" w-auto h-96 object-cover object-center"
+                className="rounded-lg w-auto h-96 object-cover object-center"
                 src="/parasol-coffee-bags-2.jpg"
               />
             </div>
             <div>
               <img
                 alt="gallery"
-                className=" w-auto h-96 object-cover object-center"
+                className="rounded-lg w-auto h-96 object-cover object-center"
                 src="/parasol-coffee-bags-3.jpg"
               />
             </div>
