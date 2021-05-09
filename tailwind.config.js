@@ -5,8 +5,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        heading: ["Crimson Pro", "serif"],
-        sans: ["Roboto Slab", "serif"],
+        heading: ["Fraunces", "serif"],
+        sans: ["Inter", "serif"],
+        body: ["Poppins", "sans-serif"],
+
       },
     },
   },
