@@ -1,6 +1,6 @@
 const Nav = () => {
   return (
-    <header className="absolute top-0 left-0 right-0 z-20">
+    <header className="absolute top-0 left-0 right-0 z-40">
       <nav className="container mx-auto px-6 md:px-12 py-4">
         <div className="md:flex justify-between items-center">
           <div className="flex justify-between items-center">
