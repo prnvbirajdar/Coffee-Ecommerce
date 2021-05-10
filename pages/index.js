@@ -2,8 +2,7 @@ import Head from "next/head";
 import Landing from "../src/Components/Landing";
 import CoffeeCollection from "../src/Components/CoffeeCollection";
 import Newsletter from "../src/Components/Newsletter";
-
-import Link from "next/link";
+import CompanyInfo from "../src/Components/CompanyInfo";
 
 export default function Home() {
   return (
@@ -14,8 +13,8 @@ export default function Home() {
       </Head>
       <Landing />
       <CoffeeCollection />
+      <CompanyInfo />
       <Newsletter />
-
       <div className="text-black px-5">
         <p className="px-5 rounded py-1 bg-gray-300 block sm:hidden">Mobile</p>
         <p className="px-5 rounded py-1 bg-red-300  hidden sm:block md:hidden">

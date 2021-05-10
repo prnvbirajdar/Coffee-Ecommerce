@@ -8,6 +8,9 @@ module.exports = {
         heading: ["Fraunces", "serif"],
         sans: ["Inter", "serif"],
       },
+      animation: {
+        "spin-slow": "spin 8s linear infinite",
+      },
     },
   },
   variants: {
