@@ -6,11 +6,11 @@ export default function CoffeeCollection() {
     <section className=" body-font text-gray-800 ">
       <div className="container px-5 py-24 mx-auto space-y-10">
         <div className="flex flex-col text-center w-full mb-20 relative ">
-          <img src="/coffee-mark.png" alt="" className="h-20 w-20 absolute animate-spin-slow" />
+          <img src="/coffee-mark.png" alt="" className="h-20 w-20 absolute " />
           <h2 className="font-heading text-4xl sm:text-5xl md:text-6xl 2xl:text-7xl font-semibold title-font mb-4 ">
             Coffee Collection{" "}
           </h2>
-          <p className="lg:w-7/12 text-gray-600 mx-auto leading-relaxed text-base xl:text-lg">
+          <p className="lg:w-7/12 text-gray-600 mx-auto leading-relaxed text-base xl:text-lg ">
             A collection of some of our best-selling specialty coffees
           </p>
         </div>
@@ -25,11 +25,13 @@ export default function CoffeeCollection() {
             <p className="text-center font-semibold text-lg lg:text-xl 2xl:text-2xl font-heading">
               ETHIOPIA
             </p>
-            <p className="uppercase  text-sm mx-auto text-center">
+            <p className="uppercase  text-sm mx-auto text-center 2xl:text-base">
               Fruity • Bright
             </p>
             <div>
-              <p className="uppercase text-sm mx-auto text-center">$ 12.99</p>
+              <p className="uppercase text-sm mx-auto text-center 2xl:text-base">
+                $ 12.99
+              </p>
             </div>
           </div>
           <div className="space-y-4 ">
@@ -69,7 +71,7 @@ export default function CoffeeCollection() {
           <Link href="/shop">
             <a
               href="#"
-              className="font-heading bg-white hover:bg-gray-100 transition-colors py-3 px-5 rounded-lg text-lg text-gray-800 font-bold "
+              className="font-heading bg-white hover:bg-gray-100 transition-colors py-3 px-5 rounded-lg text-lg text-gray-800 font-bold  "
             >
               Shop All Coffee
             </a>
