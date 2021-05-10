@@ -20,7 +20,7 @@ export default function Landing() {
           <Link href="/shop">
             <a
               href="#"
-              className="font-heading block bg-white hover:bg-gray-100 py-3 px-4 rounded-lg text-lg text-gray-800 font-bold "
+              className="font-heading block bg-white hover:bg-gray-200 transition-colors py-3 px-5 rounded-lg text-lg text-gray-800 font-bold "
             >
               Shop Coffee
             </a>

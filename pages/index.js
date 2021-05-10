@@ -11,32 +11,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Landing />
-      <CoffeeCollection />
-      <main className="relative overflow-hidden h-screen text-gray-50 flex">
-        <img src="/bean2.jpg" className="absolute h-full w-full object-cover" />
-        <div className="inset-0 bg-black opacity-75 absolute"></div>
-        <div className="container mx-auto px-6 md:px-12 relative z-10 flex items-center ">
-          <div className="sm:w-10/12 lg:w-3/5 xl:w-6/12 flex flex-col items-start relative z-10 space-y-6">
-            <h1 className="font-heading font-semibold text-4xl sm:text-5xl md:text-6xl 2xl:text-7xl leading-tight ">
-              Coffee done right, <br className="hidden sm:block" /> for everyone
-            </h1>
-            <p className="2xl:text-lg text-gray-300">
-              Enjoy our expertly curated smooth, delicious, and subtly sweet
-              artisan coffees from all over world delivered directly to your
-              door, at your schedule.
-            </p>
+      {/*  <CoffeeCollection /> */}
 
-            <Link href="/shop">
-              <a
-                href="#"
-                className="font-heading block bg-white hover:bg-gray-100 py-3 px-4 rounded-lg text-lg text-gray-800 font-bold "
-              >
-                Shop Coffee
-              </a>
-            </Link>
-          </div>
-        </div>
-      </main>{" "}
       <section className=" body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
@@ -48,95 +24,59 @@ export default function Home() {
             </p>
           </div>
 
-          <div className=" flex  justify-evenly align-center ">
-            <div>
+          <div className=" flex flex-col md:flex-row space-y-5  md:space-x-3 lg:space-x-0 md:space-y-0 justify-evenly align-center">
+            <div className="space-y-4 border">
               <img
                 alt="gallery"
-                className="rounded-lg w-auto h-96 object-cover object-center"
+                className="mx-auto rounded-lg w-auto h-96 object-cover object-center"
                 src="/parasol-coffee-bags-1.jpg"
               />
-              <p>ETHIOPIA</p>
+              <p className="text-center font-semibold text-lg lg:text-xl 2xl:text-2xl font-heading">
+                ETHIOPIA
+                {/* <span className="text-black text-base font-normal">(300 gms)</span> */}
+              </p>
+              <p className=" text-sm mx-auto text-center border">
+                DARK CHOCOLATE • BROWN SUGAR
+              </p>
             </div>
-            <div>
+            <div className="space-y-4 border">
               <img
                 alt="gallery"
-                className="rounded-lg w-auto h-96 object-cover object-center"
+                className="mx-auto rounded-lg w-auto h-96 object-cover object-center"
                 src="/parasol-coffee-bags-2.jpg"
               />
+              <p className="text-center font-semibold text-lg font-heading">
+                ETHIOPIA
+              </p>
+              <p className="w-10/12 text-sm mx-auto text-center border">
+                DARK CHOCOLATE • BROWN SUGAR
+                {/* • POMEGRANATE AMBER ROAST */}
+              </p>
             </div>
-            <div>
+            <div className="space-y-4 border">
               <img
                 alt="gallery"
-                className="rounded-lg w-auto h-96 object-cover object-center"
+                className="mx-auto rounded-lg w-auto h-96 object-cover object-center"
                 src="/parasol-coffee-bags-3.jpg"
               />
+              <p className="text-center font-semibold text-lg font-heading">
+                ETHIOPIA
+              </p>
+              <p className="w-10/12 text-sm mx-auto text-center border">
+                DARK CHOCOLATE • BROWN SUGAR
+                {/* • POMEGRANATE AMBER ROAST */}
+              </p>
             </div>
           </div>
-          {/* <div className="flex flex-wrap -m-4">
-            <div className="lg:w-1/3 sm:w-1/2 p-4">
-              <div className="flex relative">
-                <img
-                  alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="/parasol-coffee-bags-1.jpg"
-                />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">
-                    THE SUBTITLE
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                    Shooting Stars
-                  </h1>
-                  <p className="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="lg:w-1/3 sm:w-1/2 p-4">
-              <div className="flex relative">
-                <img
-                  alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="https://dummyimage.com/601x361"
-                />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">
-                    THE SUBTITLE
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                    The Catalyzer
-                  </h1>
-                  <p className="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="lg:w-1/3 sm:w-1/2 p-4">
-              <div className="flex relative">
-                <img
-                  alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="https://dummyimage.com/603x363"
-                />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">
-                    THE SUBTITLE
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                    The 400 Blows
-                  </h1>
-                  <p className="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
-                  </p>
-                </div>
-              </div>
-            </div>
-           
+          {/* <div className="flex justify-center">
+            <Link href="/shop">
+              <a
+                href="#"
+                className="font-heading bg-pink-400 hover:bg-gray-200 transition-colors py-3 px-5 rounded-lg text-lg text-gray-800 font-bold "
+              >
+                Shop Coffee
+              </a>
+            </Link>
           </div> */}
         </div>
       </section>
