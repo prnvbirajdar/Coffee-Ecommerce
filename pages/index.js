@@ -1,8 +1,8 @@
 import Head from "next/head";
-import Landing from "../src/Components/Landing";
-import CoffeeCollection from "../src/Components/CoffeeCollection";
-import Newsletter from "../src/Components/Newsletter";
-import CompanyInfo from "../src/Components/CompanyInfo";
+import Landing from "../src/Components/Landing/LandingPage";
+import CoffeeCollection from "../src/Components/Landing/CoffeeCollection";
+import Newsletter from "../src/Components/Landing/Newsletter";
+import CompanyInfo from "../src/Components/Landing/CompanyInfo";
 
 export default function Home() {
   return (
@@ -12,9 +12,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Landing />
-      <CoffeeCollection />
-      <CompanyInfo />
-      <Newsletter />
       <div className="text-black px-5">
         <p className="px-5 rounded py-1 bg-gray-300 block sm:hidden">Mobile</p>
         <p className="px-5 rounded py-1 bg-red-300  hidden sm:block md:hidden">
@@ -33,6 +30,9 @@ export default function Home() {
           2xl
         </p>
       </div>
+      <CoffeeCollection />
+      <CompanyInfo />
+      <Newsletter />
     </>
   );
 }

@@ -3,12 +3,16 @@ import Link from "next/link";
 
 export default function CoffeeCollection() {
   return (
-    <section className=" body-font text-gray-800 ">
+    <section className=" body-font ">
       <div className="container px-5 py-24 mx-auto space-y-10">
-        <div className="flex flex-col text-center w-full mb-20 relative ">
-          <img src="/coffee-mark.png" alt="" className="h-20 w-20 absolute " />
+        <div className="flex flex-col text-center w-full mb-20  ">
           <h2 className="font-heading text-4xl sm:text-5xl md:text-6xl 2xl:text-7xl font-semibold title-font mb-4 ">
-            Coffee Collection{" "}
+            {/* <img
+              src="/coffee-mark.png"
+              alt=""
+              className="h-24 w-24 inline-block "
+            />{" "} */}
+            <span > Coffee Collection </span>
           </h2>
           <p className="lg:w-7/12 text-gray-600 mx-auto leading-relaxed text-base xl:text-lg ">
             A collection of some of our best-selling specialty coffees
@@ -41,10 +45,10 @@ export default function CoffeeCollection() {
               src="/parasol-coffee-bags-2.jpg"
             />
             <p className="text-center font-semibold text-lg lg:text-xl 2xl:text-2xl font-heading">
-              ETHIOPIA
+              COLOMBIA
             </p>
             <p className="uppercase  text-sm mx-auto text-center">
-              Fruity • Bright
+              Nutty • Smooth
             </p>
             <div>
               <p className="uppercase text-sm mx-auto text-center">$ 12.99</p>
@@ -57,10 +61,10 @@ export default function CoffeeCollection() {
               src="/parasol-coffee-bags-3.jpg"
             />
             <p className="text-center font-semibold text-lg lg:text-xl 2xl:text-2xl font-heading">
-              ETHIOPIA
+              GUATEMALA
             </p>
             <p className="uppercase  text-sm mx-auto text-center">
-              Fruity • Bright
+              Chocolatey • Rich
             </p>
             <div>
               <p className="uppercase text-sm mx-auto text-center">$ 12.99</p>

@@ -94,7 +94,7 @@ const CompanyInfo = () => {
       </div> */}
 
       <div className="max-w-[1000px] w-11/12 mx-auto flex flex-col md:flex-row justify-center items-center 2xl:max-w-[1400px]">
-        <div className="sm:w-10/12 md:w-9/12 lg:w-8/12 bg-pink-200 px-6 pt-12 pb-16 md:py-20 lg:py-40 space-y-5 rounded-lg 2xl:py-64  2xl:text-lg">
+        <div className="sm:w-10/12 md:w-9/12 lg:w-8/12 bg-gray-50 px-6 pt-12 pb-16 md:py-20 lg:py-40 space-y-5 rounded-lg 2xl:py-64  2xl:text-lg">
           <div className="w-11/12 md:w-8/12 lg:w-4/6 mx-auto space-y-4 2xl:space-y-6">
             <h2 className="font-heading text-3xl sm:text-5xl md:text-5xl 2xl:text-7xl font-semibold title-font">
               Coffee Roasters{" "}
