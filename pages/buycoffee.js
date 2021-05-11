@@ -50,7 +50,7 @@ export default function buycoffee() {
               </a>
               <a
                 href="#"
-                className="text-center shadow-lg md:text-left font-heading block bg-white hover:bg-gray-200 transition-colors py-3 px-5 rounded-lg text-lg text-gray-800 font-bold "
+                className="text-center shadow-lg md:text-left font-heading block bg-gray-800 hover:bg-gray-200 transition-colors py-3 px-5 rounded-lg text-lg text-gray-100 font-bold "
               >
                 Buy Now
               </a>
