@@ -1,6 +1,31 @@
 const AboutPage = () => {
   return (
     <>
+      <main className="relative overflow-hidden h-screen text-gray-50 flex">
+        <video
+          src="/video.mp4"
+          type="video/mp4"
+          autoPlay
+          muted
+          loop
+          className="absolute h-full w-full object-cover"
+        />
+        <div className="inset-0 bg-black opacity-60 absolute"></div>
+        <div className="container mx-auto px-6 md:px-12 relative z-10 flex items-center ">
+          <div className="bg-gray-900 bg-opacity-30 md:bg-opacity-0 rounded-lg p-6 sm:w-10/12 lg:w-3/5 xl:w-6/12 flex flex-col items-start relative z-10 space-y-6">
+            <h1 className="font-heading font-semibold text-3xl sm:text-4xl md:text-5xl 2xl:text-6xl leading-tight ">
+              Our Story{" "}
+            </h1>
+            <p className="2xl:text-lg text-gray-200">
+              One of Canada’s latest specialty coffee company, Coffee Roasters
+              was built on the idea that coffee should be more than just
+              mindless morning fuel. We continue to strive to elevate coffee and
+              acquaint coffee loving Canadians with the best coffees from across
+              the globe.
+            </p>
+          </div>
+        </div>
+      </main>
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="grid gap-10 lg:grid-cols-2">
           <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
