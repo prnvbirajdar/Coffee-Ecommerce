@@ -4,8 +4,8 @@ import "../src/css/tailwind.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="">
-      <Nav />
+    <div className="bg-[#9dbfc8] bg-opacity-50 text-gray-800 ">
+      <Nav /> 
       <Component {...pageProps} />
       <Footer />
     </div>
@@ -13,3 +13,5 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+
+// #5c9db1 #feefc3
