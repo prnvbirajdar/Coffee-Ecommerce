@@ -3,7 +3,7 @@ import React from "react";
 export default function buycoffee() {
   return (
     <>
-      <section className=" md:max-w-2xl lg:max-w-full space-y-8 py-32 flex flex-col md:flex-row justify-center items-center min-h-screen w-10/12 max-w-md mx-auto ">
+      <section className=" md:max-w-2xl lg:max-w-full 2xl:max-w-7xl space-y-8 py-32 flex flex-col md:flex-row justify-center items-center min-h-screen w-10/12 max-w-md mx-auto ">
         <div className="block md:hidden w-full space-y-2 ">
           <h1 className="font-heading text-3xl title-font font-medium uppercase">
             Ethiopia
@@ -14,7 +14,7 @@ export default function buycoffee() {
           <p className="text-gray-600">$ 12.99</p>
         </div>
 
-        <div className="md:w-1/2 md:self-start lg:w-1/3">
+        <div className="md:w-1/2  lg:w-1/3  ">
           <img
             alt="gallery"
             className="mx-auto md:mx-0 lg:mx-auto rounded-lg w-auto h-96 lg:h-[450px] object-cover object-center"
@@ -22,7 +22,7 @@ export default function buycoffee() {
           />
         </div>
 
-        <div className="mx-auto space-y-3 md:w-1/2">
+        <div className="mx-auto space-y-3 md:w-1/2 ">
           <div className="hidden md:block md:space-y-2">
             <h1 className="font-heading text-3xl title-font font-medium mb-1">
               ETHIOPIA{" "}
@@ -35,7 +35,7 @@ export default function buycoffee() {
             <p className="text-gray-600">$ 12.99</p>
           </div>
           <div className="space-y-3 md:space-y-5">
-            <label className="pr-1">Quantity </label>{" "}
+            <label className="text-gray-600 pr-1">Quantity </label>{" "}
             <input
               type="number"
               className="rounded-lg w-16 p-3"
