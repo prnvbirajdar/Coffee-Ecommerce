@@ -29,7 +29,7 @@ export default function CoffeeCollection() {
             <p className="text-center font-semibold text-lg lg:text-xl 2xl:text-2xl font-heading">
               ETHIOPIA
             </p>
-            <p className="uppercase  text-sm mx-auto text-center 2xl:text-base">
+            <p className="text-gray-600 uppercase  text-sm mx-auto text-center 2xl:text-base">
               Fruity • Bright
             </p>
             <div>
